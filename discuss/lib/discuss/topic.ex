@@ -2,7 +2,7 @@ defmodule Discuss.Topic do
   use Ecto.Schema
   import Ecto.Changeset
 
-  schema "topics" do
+  schema "topic" do
     field :title, :string
   end
 
